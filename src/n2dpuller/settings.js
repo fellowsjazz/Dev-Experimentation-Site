@@ -64,3 +64,7 @@ Please donate to: net2dev.eth
     /*
     CTRL+S to save
     */
+
+    export const tokenID = 1585
+
+    //3673 is no ens

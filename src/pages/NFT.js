@@ -1,15 +1,16 @@
 import NftPuller, {} from '../n2dpuller/nftpuller'
+import CustomNftViewer from '../components/CustomNftViewer'
 
 export default function NFT(){
     return (
     <div>
     
-    <h1>Sample NFT Puller, not custom</h1>
 
-    <NftPuller/>
-
+    <CustomNftViewer/>
 
     </div>
     
     )
 }
+
+//for some reason NFT puller is getting the token IDs wrong on the render
